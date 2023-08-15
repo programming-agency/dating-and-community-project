@@ -217,7 +217,7 @@ class FooterTwo extends Component {
                         <div className="row g-4 g-lg-0 justify-content-lg-between align-items-center">
                             <div className="col-lg-6 col-12">
                                 <div className="footer__content text-center">
-                                    <p className="mb-0">All Rights Reserved &copy; || <a href="https://www.programming-agency.com">Programming Agency</a> </p>
+                                    <p className="mb-0">All Rights Reserved &copy; <a href="https://www.programming-agency.com">Programming Agency</a> </p>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-12">

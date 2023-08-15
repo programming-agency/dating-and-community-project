@@ -42,6 +42,7 @@ let AboutInfo = [
         Name: 'Contact',
         Details: '+8801518919421',
     },
+
 ]
 
 let FeatureList = [
@@ -113,16 +114,16 @@ let RecentPost = [
 ]
 
 class FooterThree extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             newsEmail: '',
         };
     }
-    render() { 
+    render() {
         return (
             <footer className="footer footer--style2">
-                <div className="footer__top bg_img" style={{backgroundImage: "url(/assets/images/footer/bg.jpg)"}}>
+                <div className="footer__top bg_img" style={{ backgroundImage: "url(/assets/images/footer/bg.jpg)" }}>
                     <div className="footer__newsletter">
                         <div className="container">
                             <div className="row g-4 justify-content-center">
@@ -133,13 +134,13 @@ class FooterThree extends Component {
                                         </div>
                                         <div className="footer__newsletter--form">
                                             <form action="#">
-                                                <input 
+                                                <input
                                                     type="email"
                                                     name="email"
                                                     id="item01"
                                                     value={this.state.newsEmail}
-                                                    onChange={(e)=>{this.setState({newsEmail: e.target.value});}}
-                                                    placeholder="Your email address *" 
+                                                    onChange={(e) => { this.setState({ newsEmail: e.target.value }); }}
+                                                    placeholder="Your email address *"
                                                 />
                                                 <button type="submit" className="default-btn"><span>Subscribe</span></button>
                                             </form>
@@ -180,6 +181,7 @@ class FooterThree extends Component {
                                                     {AboutInfo.map((val, i) => (
                                                         <p key={i}><b>{val.Name} :</b> {val.Details}</p>
                                                     ))}
+                                                    <p> <a href="https://www.programming-agency.com">License</a> </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -260,11 +262,11 @@ class FooterThree extends Component {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="footer__bottom py-4">
                     <div className="container">
                         <div className="footer__content text-center">
-                            <p className="mb-0">All Rights Reserved &copy; || <a href="https://www.programming-agency.com">Programming Agency</a></p>
+                            <p className="mb-0">All Rights Reserved &copy; <a href="https://www.programming-agency.com">Programming Agency</a></p>
                         </div>
                     </div>
                 </div>
@@ -272,5 +274,5 @@ class FooterThree extends Component {
         );
     }
 }
- 
+
 export default FooterThree;
