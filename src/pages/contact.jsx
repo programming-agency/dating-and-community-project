@@ -22,13 +22,13 @@ let infoListContent = [
         imgUrl: 'assets/images/contact/icon/02.png',
         imgAlt: 'Contact Info Thumb',
         title: 'Phone number',
-        desc: '+22698 745 632, 02 982 745',
+        desc: '+8801518919421',
     },
     {
         imgUrl: 'assets/images/contact/icon/03.png',
         imgAlt: 'Contact Info Thumb',
         title: 'Send Email',
-        desc: 'yourmail@gmail.com',
+        desc: 'info@programming-agency.com',
     },
 ]
 
