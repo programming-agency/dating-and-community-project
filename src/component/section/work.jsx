@@ -7,7 +7,7 @@ let WorkSectionContentListOne = [
         imgUrl: 'assets/images/work/05.png',
         imgAlt: 'Dating Thumb',
         title: 'Search Your Partner',
-        desc: 'The simple steps to follow to have great experience using ollya. all you have to do is follows your gut and awesome your heart!',
+        desc: 'The simple steps to follow to have great experience using loveloom. all you have to do is follows your gut and awesome your heart!',
     },
 ]
 let WorkSectionContentListTwo = [
@@ -15,7 +15,7 @@ let WorkSectionContentListTwo = [
         imgUrl: 'assets/images/work/06.png',
         imgAlt: 'Dating Thumb',
         title: '100% Match People',
-        desc: 'The simple steps to follow to have great experience using ollya. all you have to do is follows your gut and awesome your heart!',
+        desc: 'The simple steps to follow to have great experience using loveloom. all you have to do is follows your gut and awesome your heart!',
     },
 ]
 let WorkSectionContentListThree = [
@@ -23,7 +23,7 @@ let WorkSectionContentListThree = [
         imgUrl: 'assets/images/work/07.png',
         imgAlt: 'Dating Thumb',
         title: 'Find Out Partner',
-        desc: 'The simple steps to follow to have great experience using ollya. all you have to do is follows your gut and awesome your heart!',
+        desc: 'The simple steps to follow to have great experience using loveloom. all you have to do is follows your gut and awesome your heart!',
     },
 ]
 let WorkSectionContentListFour = [
@@ -31,14 +31,14 @@ let WorkSectionContentListFour = [
         imgUrl: 'assets/images/work/08.png',
         imgAlt: 'Dating Thumb',
         title: 'Live The Story',
-        desc: 'The simple steps to follow to have great experience using ollya. all you have to do is follows your gut and awesome your heart!',
+        desc: 'The simple steps to follow to have great experience using loveloom. all you have to do is follows your gut and awesome your heart!',
     },
 ]
 
 class WorkSection extends Component {
-    render() { 
+    render() {
         return (
-            <div className="work padding-top padding-bottom bg_img" style={{backgroundImage: "url(/assets/images/bg-img/01.jpg)"}}>
+            <div className="work padding-top padding-bottom bg_img" style={{ backgroundImage: "url(/assets/images/bg-img/01.jpg)" }}>
                 <div className="container">
                     <div className="section__header text-center wow fadeInUp" data-wow-duration="1.5s">
                         <h2>{title}​</h2>
@@ -120,5 +120,5 @@ class WorkSection extends Component {
         );
     }
 }
- 
+
 export default WorkSection;

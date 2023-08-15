@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 
-const title = "Ollya Success Stories";
+const title = "loveloom Success Stories";
 const desc = "Listen and learn from our community members and find out tips and tricks to meet your love. Join us and be part of a bigger family.";
 
 let StorySectionContentList = [
@@ -39,9 +39,9 @@ let StorySectionContentList = [
 
 
 class StorySection extends Component {
-    render() { 
+    render() {
         return (
-            <div className="story bg_img padding-top padding-bottom" style={{backgroundImage: "url(/assets/images/bg-img/02.jpg)"}}>
+            <div className="story bg_img padding-top padding-bottom" style={{ backgroundImage: "url(/assets/images/bg-img/02.jpg)" }}>
                 <div className="container">
                     <div className="section__header style-2 text-center wow fadeInUp" data-wow-duration="1.5s">
                         <h2>{title}</h2>
@@ -80,5 +80,5 @@ class StorySection extends Component {
         );
     }
 }
- 
+
 export default StorySection;

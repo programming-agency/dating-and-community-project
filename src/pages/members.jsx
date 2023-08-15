@@ -125,11 +125,11 @@ class MembersPage extends Component {
         document.querySelector('.modal').classList.toggle('show')
         document.querySelector('body').classList.toggle('overlay')
     }
-    render() { 
+    render() {
         return (
             <Fragment>
                 <HeaderTwo />
-                <PageHeader title={'Ollya All Members'} curPage={'All Members'} />
+                <PageHeader title={'loveloom All Members'} curPage={'All Members'} />
                 <AboutSectionFour />
                 <div className="member member--style2 padding-top padding-bottom">
                     <div className="container">
@@ -239,5 +239,5 @@ class MembersPage extends Component {
         );
     }
 }
- 
+
 export default MembersPage;

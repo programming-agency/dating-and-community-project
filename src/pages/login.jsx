@@ -1,18 +1,18 @@
 import { Component } from "react";
 import { Link } from "react-router-dom";
 
-const title = "Welcome to Ollya";
+const title = "Welcome to loveloom";
 const otherTitle = "Sign up with your email";
 
 class LogIn extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             userEmail: '',
             userPass: '',
         };
     }
-    render() { 
+    render() {
         return (
             <section className="log-reg">
                 <div className="top-menu-area">
@@ -46,7 +46,7 @@ class LogIn extends Component {
                                                 name="email"
                                                 id="item01"
                                                 value={this.state.userEmail}
-                                                onChange={(e)=>{this.setState({userEmail: e.target.value});}}
+                                                onChange={(e) => { this.setState({ userEmail: e.target.value }); }}
                                                 placeholder="Enter Your Email *"
                                                 className="my-form-control"
                                             />
@@ -58,7 +58,7 @@ class LogIn extends Component {
                                                 name="password"
                                                 id="item02"
                                                 value={this.state.userPass}
-                                                onChange={(e)=>{this.setState({userPass: e.target.value});}}
+                                                onChange={(e) => { this.setState({ userPass: e.target.value }); }}
                                                 placeholder="Enter Your Password *"
                                                 className="my-form-control"
                                             />
@@ -85,5 +85,5 @@ class LogIn extends Component {
         );
     }
 }
- 
+
 export default LogIn;

@@ -123,7 +123,7 @@ let GroupPageContentList = [
     {
         imgUrl: 'assets/images/group/04.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Ollya Dating Theme...',
+        title: 'loveloom Dating Theme...',
         desc: 'You become what you believe. –Oprah Winfrey',
         activety: '2 days ago',
         group: 'Public Group',
@@ -451,11 +451,11 @@ class GroupPage extends Component {
         document.querySelector('.modal').classList.toggle('show')
         document.querySelector('body').classList.toggle('overlay')
     }
-    render() { 
+    render() {
         return (
             <Fragment>
                 <HeaderTwo />
-                <PageHeader title={'Ollya All Groups'} curPage={'Groups'} />
+                <PageHeader title={'loveloom All Groups'} curPage={'Groups'} />
                 <AboutSectionFour />
                 <div className="member story story--style2 padding-top padding-bottom overflow-hidden">
                     <div className="container">
@@ -601,5 +601,5 @@ class GroupPage extends Component {
         );
     }
 }
- 
+
 export default GroupPage;

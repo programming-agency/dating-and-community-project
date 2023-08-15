@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 const newstitle = "Newsletter Sign up";
 const jointitle = "Join Community";
-const aboutTitle = "About Ollya";
-const aboutDesc = "Ollya is a friendly dating theme based on HTML template for the community functionality";
+const aboutTitle = "About loveloom";
+const aboutDesc = "loveloom is a friendly dating theme based on HTML template for the community functionality";
 const featureTitle = "Featured Members";
 const supportTitle = "Contacts & Support";
 const recentTitle = "Recent Activity";

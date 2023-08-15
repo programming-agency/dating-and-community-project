@@ -2,12 +2,12 @@ import { Component } from "react";
 import { Link } from "react-router-dom";
 import SelectMarid from "../component/select/selectmarid";
 
-const title = "Welcome to Ollya";
+const title = "Welcome to loveloom";
 const desc = "Let's create your profile! Just fill in the fields below, and we’ll get a new account.";
 const accTitle = "Acount Details";
 
 class SignUp extends Component {
-    constructor(props){
+    constructor(props) {
         super(props);
         this.state = {
             regName: '',
@@ -16,7 +16,7 @@ class SignUp extends Component {
             regConPassword: '',
         };
     }
-    render() { 
+    render() {
         return (
             <section className="log-reg">
                 <div className="top-menu-area">
@@ -52,7 +52,7 @@ class SignUp extends Component {
                                                 name="name"
                                                 id="item01"
                                                 value={this.state.regName}
-                                                onChange={(e)=>{this.setState({regName: e.target.value});}}
+                                                onChange={(e) => { this.setState({ regName: e.target.value }); }}
                                                 placeholder="Enter Your Usewrname *"
                                                 className="my-form-control"
                                             />
@@ -64,7 +64,7 @@ class SignUp extends Component {
                                                 name="email"
                                                 id="item02"
                                                 value={this.state.regEmail}
-                                                onChange={(e)=>{this.setState({regEmail: e.target.value});}}
+                                                onChange={(e) => { this.setState({ regEmail: e.target.value }); }}
                                                 placeholder="Enter Your Email *"
                                                 className="my-form-control"
                                             />
@@ -76,7 +76,7 @@ class SignUp extends Component {
                                                 name="password"
                                                 id="item03"
                                                 value={this.state.regPassword}
-                                                onChange={(e)=>{this.setState({regPassword: e.target.value});}}
+                                                onChange={(e) => { this.setState({ regPassword: e.target.value }); }}
                                                 placeholder="Enter Your Password *"
                                                 className="my-form-control"
                                             />
@@ -88,7 +88,7 @@ class SignUp extends Component {
                                                 name="password"
                                                 id="item04"
                                                 value={this.state.regConPassword}
-                                                onChange={(e)=>{this.setState({regConPassword: e.target.value});}}
+                                                onChange={(e) => { this.setState({ regConPassword: e.target.value }); }}
                                                 placeholder="Enter Your Password *"
                                                 className="my-form-control"
                                             />
@@ -149,5 +149,5 @@ class SignUp extends Component {
         );
     }
 }
- 
+
 export default SignUp;

@@ -12,7 +12,7 @@ let TagsList = [
         SiteLink: '#',
     },
     {
-        Name: 'Ollya',
+        Name: 'loveloom',
         SiteLink: '#',
     },
     {
@@ -42,7 +42,7 @@ let TagsList = [
 ]
 
 class Tags extends Component {
-    render() { 
+    render() {
         return (
             <div className="widget widget-tags">
                 <div className="widget-header">
@@ -57,5 +57,5 @@ class Tags extends Component {
         );
     }
 }
- 
+
 export default Tags;

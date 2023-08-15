@@ -9,20 +9,20 @@ import AppSectionTwo from "../component/section/appsectiontwo";
 import HeaderTwo from "../component/layout/headertwo";
 
 class AboutPage extends Component {
-    render() { 
+    render() {
         return (
             <Fragment>
                 <HeaderTwo />
-                <PageHeader title={'About Our Ollya'} curPage={'About Us'} />
+                <PageHeader title={'About Our loveloom'} curPage={'About Us'} />
                 <AboutSectionSix />
                 <StorySection />
                 <AboutSection />
-				<WorkSectionTwo />
-				<AppSectionTwo />
-				<FooterThree />
+                <WorkSectionTwo />
+                <AppSectionTwo />
+                <FooterThree />
             </Fragment>
         );
     }
 }
- 
+
 export default AboutPage;

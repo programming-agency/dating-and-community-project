@@ -1,6 +1,6 @@
 import { Component } from "react";
 
-const title = "Ollya Super Powers";
+const title = "loveloom Super Powers";
 const subtitle = "Our dating platform is like a breath of fresh air. Clean and trendy design with ready to use features we are sure you will love.";
 
 let AboutContentList = [
@@ -31,7 +31,7 @@ let AboutContentList = [
 ]
 
 class AboutSection extends Component {
-    render() { 
+    render() {
         return (
             <div className="about padding-top padding-bottom">
                 <div className="container">
@@ -63,5 +63,5 @@ class AboutSection extends Component {
         );
     }
 }
- 
+
 export default AboutSection;

@@ -6,7 +6,7 @@ import SelectCountry from "../select/selectcountry";
 import SelectAge from "../select/selectage";
 import SelectGender from "../select/selectgender";
 
-const title = "Welcome To Our Ollya";
+const title = "Welcome To Our loveloom";
 const desc = "You find us, finally, and you are already in love. More than 4.000.000 around the world already shared the same experiences and uses our system. Joining us today just got easier!";
 
 const subtitle = "Latest Registered Members";
@@ -42,7 +42,7 @@ let regSliderList = [
 ]
 
 class AboutSectionTwo extends Component {
-    render() { 
+    render() {
         return (
             <div className="about about--style2 padding-top pt-xl-0">
                 <div className="container">
@@ -81,16 +81,16 @@ class AboutSectionTwo extends Component {
                                                     modules={[Autoplay, Navigation]}
                                                     breakpoints={{
                                                         0: {
-                                                        width: 0,
-                                                        slidesPerView: 2,
+                                                            width: 0,
+                                                            slidesPerView: 2,
                                                         },
                                                         768: {
-                                                        width: 768,
-                                                        slidesPerView: 4,
+                                                            width: 768,
+                                                            slidesPerView: 4,
                                                         },
                                                         1200: {
-                                                        width: 1200,
-                                                        slidesPerView: 10,
+                                                            width: 1200,
+                                                            slidesPerView: 10,
                                                         },
                                                     }}
                                                 >
@@ -163,5 +163,5 @@ class AboutSectionTwo extends Component {
         );
     }
 }
- 
+
 export default AboutSectionTwo;

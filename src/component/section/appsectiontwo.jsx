@@ -1,7 +1,7 @@
 import { Component } from "react";
 
 const subtitle = "Easy Connect To Everyone";
-const title = "Download App Our Ollya";
+const title = "Download App Our loveloom";
 const desc = "You find us, finally and you are already in love. More than 5.000.000 around the world already shared the same experience andng ares uses our system Joining us today just got easier!";
 
 
@@ -20,7 +20,7 @@ let AppList = [
 ]
 
 class AppSectionTwo extends Component {
-    render() { 
+    render() {
         return (
             <div className="app app--style2 padding-top padding-bottom">
                 <div className="container">
@@ -47,5 +47,5 @@ class AppSectionTwo extends Component {
         );
     }
 }
- 
+
 export default AppSectionTwo;

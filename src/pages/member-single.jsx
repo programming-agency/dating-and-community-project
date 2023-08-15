@@ -160,7 +160,7 @@ let GroupPageContentList = [
     {
         imgUrl: 'assets/images/group/04.jpg',
         imgAlt: 'Dating Thumb',
-        title: 'Ollya Dating Theme...',
+        title: 'loveloom Dating Theme...',
         desc: 'You become what you believe. –Oprah Winfrey',
         activety: '2 days ago',
         group: 'Public',
@@ -451,7 +451,7 @@ let SiteLinkList = [
     {
         imgUrl: 'assets/images/site/01.png',
         imgAlt: 'Dating Thumb',
-        title: 'Ollya Dating',
+        title: 'loveloom Dating',
         activity: 'Active 5 months ago',
         btnText: 'Visit Site',
         btnLink: '#',
@@ -459,7 +459,7 @@ let SiteLinkList = [
     {
         imgUrl: 'assets/images/site/02.png',
         imgAlt: 'Dating Thumb',
-        title: 'Ollya',
+        title: 'loveloom',
         activity: 'Active 2 months ago',
         btnText: 'Visit Site',
         btnLink: '#',
@@ -467,7 +467,7 @@ let SiteLinkList = [
     {
         imgUrl: 'assets/images/site/03.png',
         imgAlt: 'Dating Thumb',
-        title: 'Ollya Dating',
+        title: 'loveloom Dating',
         activity: 'Active 5 months ago',
         btnText: 'Visit Site',
         btnLink: '#',
@@ -475,7 +475,7 @@ let SiteLinkList = [
     {
         imgUrl: 'assets/images/site/04.png',
         imgAlt: 'Dating Thumb',
-        title: 'Ollya',
+        title: 'loveloom',
         activity: 'Active 2 months ago',
         btnText: 'Visit Site',
         btnLink: '#',
@@ -483,7 +483,7 @@ let SiteLinkList = [
     {
         imgUrl: 'assets/images/site/05.png',
         imgAlt: 'Dating Thumb',
-        title: 'Ollya Dating',
+        title: 'loveloom Dating',
         activity: 'Active 5 months ago',
         btnText: 'Visit Site',
         btnLink: '#',
@@ -559,7 +559,7 @@ let ActiveFriendList = [
 ]
 
 class MemberDetails extends Component {
-    render() { 
+    render() {
         return (
             <Fragment>
                 <HeaderTwo />
@@ -620,7 +620,7 @@ class MemberDetails extends Component {
                                                         </li>
                                                     </ul>
                                                 </div>
-                                                
+
                                                 <div className="group__bottom--area group__bottom--memberactivity">
                                                     <div className="group__bottom--body">
                                                         <div className="group__bottom--allmedia">
@@ -687,12 +687,12 @@ class MemberDetails extends Component {
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                
+
                                                                                 <div className="post-description">
                                                                                     <p>Quickly deliver going forward methods info create empowerment before with client centered bandwdth Credibly pontficate interoperable leadership skills ands B2B data awesome Continually whiteboard ands B2B data awesome Continually whiteboard</p>
                                                                                 </div>
                                                                             </div>
-                                                                            
+
                                                                             <div className="post-meta">
                                                                                 <div className="post-meta-top">
                                                                                     <p><a href="#"><i className="fa-solid fa-thumbs-up"></i> <i className="fa-solid fa-heart"></i> <i className="fa-solid fa-face-laugh"></i> <span>Julia, Petrova and 306 like this</span></a></p>
@@ -707,7 +707,7 @@ class MemberDetails extends Component {
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        
+
                                                                         <div className="post-item mb-4">
                                                                             <div className="post-content">
                                                                                 <div className="post-author">
@@ -724,7 +724,7 @@ class MemberDetails extends Component {
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                
+
                                                                                 <div className="post-description">
                                                                                     <p>Quickly deliver going forward methods info create empowerment before with client centered bandwdth Credibly pontficate interoperable leadership skills ands B2B data awesome Continually whiteboard ands B2B data awesome Continually whiteboard</p>
                                                                                     <div className="post-desc-img">
@@ -732,7 +732,7 @@ class MemberDetails extends Component {
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                            
+
                                                                             <div className="post-meta">
                                                                                 <div className="post-meta-top">
                                                                                     <p><a href="#"><i className="fa-solid fa-thumbs-up"></i> <i className="fa-solid fa-heart"></i> <i className="fa-solid fa-face-laugh"></i><span>Julia, Petrova and 306 like this</span></a></p>
@@ -764,7 +764,7 @@ class MemberDetails extends Component {
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                
+
                                                                                 <div className="post-description">
                                                                                     <p>Quickly deliver going forward methods info create empowerment before with client centered bandwdth Credibly pontficate interoperable leadership skills ands B2B data awesome Continually whiteboard ands B2B data awesome Continually whiteboard</p>
                                                                                     <div className="post-desc-img">
@@ -779,7 +779,7 @@ class MemberDetails extends Component {
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                            
+
                                                                             <div className="post-meta">
                                                                                 <div className="post-meta-top">
                                                                                     <p><a href="#"><i className="fa-solid fa-thumbs-up"></i> <i className="fa-solid fa-heart"></i> <i className="fa-solid fa-face-laugh"></i><span>Julia, Petrova and 306 like this</span></a></p>
@@ -799,7 +799,7 @@ class MemberDetails extends Component {
                                                                             <a href="#" className="default-btn"><span>Load More Post</span></a>
                                                                         </div>
                                                                     </div>
-                
+
                                                                     <div className="tab-pane fade" id="Mentions" role="tabpanel" aria-labelledby="Mentions-tab">
                                                                         <div className="post-item">
                                                                             <div className="post-content">
@@ -817,14 +817,14 @@ class MemberDetails extends Component {
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
-                                                                                
+
                                                                                 <div className="post-description ps-5">
                                                                                     <p className="ms-5 ps-2">Hello @<a href="#">Sara Hartmann</a></p>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    
+
                                                                     <div className="tab-pane fade" id="Favorites" role="tabpanel" aria-labelledby="Favorites-tab">
                                                                         <div className="post-item mb-4">
                                                                             <div className="post-content p-4">
@@ -832,7 +832,7 @@ class MemberDetails extends Component {
                                                                             </div>
                                                                         </div>
                                                                     </div>
-                                                                    
+
                                                                     <div className="tab-pane fade" id="Friends" role="tabpanel" aria-labelledby="Friends-tab">
                                                                         {ActiveFriendList.map((val, i) => (
                                                                             <div className="activity__item mb-3" key={i}>
@@ -848,7 +848,7 @@ class MemberDetails extends Component {
                                                                             </div>
                                                                         ))}
                                                                     </div>
-                                                                    
+
                                                                     <div className="tab-pane fade" id="Groups" role="tabpanel" aria-labelledby="Groups-tab">
                                                                         {ActiveGroupsList.map((val, i) => (
                                                                             <div className="activity__item mb-3" key={i}>
@@ -1149,7 +1149,7 @@ class MemberDetails extends Component {
                                                                     </div>
                                                                 ))}
                                                             </div>
-                                                            
+
                                                             <div className="text-center mt-5">
                                                                 <a href="#" className="default-btn"><i className="fa-solid fa-spinner"></i> Load More</a>
                                                             </div>
@@ -1339,13 +1339,13 @@ class MemberDetails extends Component {
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        
+
                                                                         <div className="text-center mt-5">
                                                                             <a href="#" className="default-btn"><i className="fa-solid fa-spinner"></i> Load More</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                
+
                                                                 <div className="tab-pane fade" id="photos-media" role="tabpanel" aria-labelledby="photos-media-tab">
                                                                     <div className="media-content">
                                                                         <ul className="media-upload">
@@ -1390,13 +1390,13 @@ class MemberDetails extends Component {
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        
+
                                                                         <div className="text-center mt-5">
                                                                             <a href="#" className="default-btn"><i className="fa-solid fa-spinner"></i> Load More</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                
+
                                                                 <div className="tab-pane fade" id="video" role="tabpanel" aria-labelledby="video-tab">
                                                                     <div className="media-content">
                                                                         <ul className="media-upload">
@@ -1441,13 +1441,13 @@ class MemberDetails extends Component {
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                        
+
                                                                         <div className="text-center mt-5">
                                                                             <a href="#" className="default-btn"><i className="fa-solid fa-spinner"></i> Load More</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                                
+
                                                                 <div className="tab-pane fade" id="music" role="tabpanel" aria-labelledby="music-tab">
                                                                     <div className="media-content">
                                                                         <ul className="media-upload">
@@ -1519,5 +1519,5 @@ class MemberDetails extends Component {
         );
     }
 }
- 
+
 export default MemberDetails;
