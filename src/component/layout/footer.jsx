@@ -262,7 +262,7 @@ class Footer extends Component {
                 <div className="footer__bottom wow fadeInUp" data-wow-duration="1.5s">
                     <div className="container">
                         <div className="footer__content text-center">
-                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> Ollya </Link> || Design By: CodexCoder</p>
+                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> Ollya </Link> || <a href="https://www.programming-agency.com">Programming Agency</a></p>
                         </div>
                     </div>
                 </div>

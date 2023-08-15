@@ -13,23 +13,23 @@ const recentTitle = "Recent Activity";
 let SocialList = [
     {
         iconName: 'fa-brands fa-twitter',
-        visitLink: '#',
+        visitLink: 'https://www.twitter.com',
     },
     {
-        iconName: 'fa-brands fa-twitch',
-        visitLink: '#',
+        iconName: 'fa-brands fa-whatsapp',
+        visitLink: 'https://web.whatsapp.com/+8801518919421',
     },
     {
         iconName: 'fa-brands fa-instagram',
-        visitLink: '#',
+        visitLink: 'https://www.instagram.com/programming_agency/',
     },
     {
         iconName: 'fa-brands fa-dribbble',
-        visitLink: '#',
+        visitLink: 'https://www.dribbble.com/',
     },
     {
         iconName: 'fa-brands fa-facebook-messenger',
-        visitLink: '#',
+        visitLink: 'https://www.facebook.com/programming.agency23',
     },
 ]
 
@@ -40,7 +40,7 @@ let AboutInfo = [
     },
     {
         Name: 'Contact',
-        Details: '+30 226 4881 514 www.yoursitename.com',
+        Details: '+8801518919421',
     },
 ]
 
@@ -264,7 +264,7 @@ class FooterThree extends Component {
                 <div className="footer__bottom py-4">
                     <div className="container">
                         <div className="footer__content text-center">
-                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> Ollya </Link> || Design By: CodexCoder</p>
+                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> Ollya </Link> || <a href="https://www.programming-agency.com">Programming Agency</a></p>
                         </div>
                     </div>
                 </div>
