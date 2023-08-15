@@ -264,7 +264,7 @@ class FooterThree extends Component {
                 <div className="footer__bottom py-4">
                     <div className="container">
                         <div className="footer__content text-center">
-                            <p className="mb-0">All Rights Reserved &copy; <Link to="/"> Ollya </Link> || <a href="https://www.programming-agency.com">Programming Agency</a></p>
+                            <p className="mb-0">All Rights Reserved &copy; || <a href="https://www.programming-agency.com">Programming Agency</a></p>
                         </div>
                     </div>
                 </div>
