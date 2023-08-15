@@ -31,7 +31,7 @@ let SocialList = [
 
     {
         iconName: 'fa-brands fa-twitter',
-        visitLink: '#',
+        visitLink: 'https://twitter.com/Programm_agency',
     },
 ]
 

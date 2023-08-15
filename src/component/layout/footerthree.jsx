@@ -13,7 +13,7 @@ const recentTitle = "Recent Activity";
 let SocialList = [
     {
         iconName: 'fa-brands fa-twitter',
-        visitLink: 'https://www.twitter.com',
+        visitLink: 'https://twitter.com/Programm_agency',
     },
     {
         iconName: 'fa-brands fa-whatsapp',
