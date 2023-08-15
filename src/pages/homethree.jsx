@@ -14,7 +14,7 @@ class HomePageThree extends Component {
     render() { 
         return (
             <Fragment>
-               
+                <HeaderThree />
 				<BannerThree />
 				<AboutSectionFour />
 				<MemberSectionThree />

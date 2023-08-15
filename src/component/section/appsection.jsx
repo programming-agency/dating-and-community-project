@@ -30,10 +30,10 @@ class AppSection extends Component {
                             <div className="app__item">
                                 <div className="app__inner">
                                     <div className="app__content">
-                                        <h4>{subtitle}</h4>
-                                        <h2>{title}</h2>
-                                        <p>{desc}</p>
-                                        <ul>
+                                        <h4 className="text-center">{subtitle}</h4>
+                                        <h2 className="text-center">{title}</h2>
+                                        <p className="text-center">{desc}</p>
+                                        <ul className="d-flex justify-content-center">
                                             {AppList.map((val, i) => (
                                                 <li key={i}><a href={`${val.siteLink}`}><img src={`${val.imgUrl}`} alt={`${val.imgUrl}`} /></a></li>
                                             ))}

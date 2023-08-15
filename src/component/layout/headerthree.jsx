@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 let HeaderInfoList = [
     {
         iconName: 'fa-solid fa-phone',
-        text: '+800-123-4567 6587',
+        text: '+8801518919421',
     },
     {
         iconName: 'fa-solid fa-location-dot',
@@ -16,11 +16,11 @@ let HeaderInfoList = [
 let HeaderSocialList = [
     {
         iconName: 'fa-brands fa-facebook-messenger',
-        link: '#'
+        link: 'https://www.facebook.com/programming.agency23'
     },
     {
         iconName: 'fa-brands fa-twitter',
-        link: '#'
+        link: 'https://www.programming-agency.com/'
     },
     {
         iconName: 'fa-brands fa-vimeo-v',
